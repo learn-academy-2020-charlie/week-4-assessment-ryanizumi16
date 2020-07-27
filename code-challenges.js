@@ -6,8 +6,15 @@ var collections = ["purple", "blue", "green", "yellow", "pink"]
 // Expected output example1 (can be a different order): ["yellow", "blue", "pink", "green"]
 // Expected output example2 (can be a different order): ["blue", "green", "pink"]
 // Expected output example3 (can be a different order): ["pink", "green"]
+//
+const minus1 = (array) => {
+  var collections = array.shift(0)
+  for(let i = 0; i < 0; i++){
+    return array
+  }
+}
 
-
+console.log(minus1(collections))
 
 
 
@@ -18,9 +25,12 @@ var cubeAndSum1 = [2, 3, 4]
 var cubeAndSum2 = [0, 5, 10]
 // Expected output: 1125
 
-
-
-
+const cubed = (array) => {
+  let cubed = cubeAndSum1.map(value =>
+     math.cbrt()
+  )
+}
+cosole.log(cubed(cubeAndSum1))
 
 // --------------------3) Create a function that takes an array of numbers and returns an array of the minimum and maximum numbers in that order.
 
@@ -28,7 +38,12 @@ var nums1 = [3, 56, 90, -8, 0, 23, 6]
 // Expected output: [-8, 90]
 var nums2 = [109, 5, 9, -59, 8, 24]
 // Expected output: [-59, 109]
-
+//
+const minAndMax = (array) => {
+  array.filter(value => {
+    if value
+  })
+}
 
 
 
